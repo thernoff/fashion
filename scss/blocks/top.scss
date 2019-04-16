@@ -1,0 +1,15 @@
+.top {
+  border-bottom: 6px solid $top-border-color;
+  padding: 30px 0;
+
+  .top__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .top__menu {
+    flex-basis: 58%;
+  }
+}
